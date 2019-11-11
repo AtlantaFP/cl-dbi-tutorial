@@ -9,7 +9,8 @@
   :components ((:module "src"
                 :components
                 ((:file "user")
-		 (:file "main"))))
+                 (:file "db-schema")
+		             (:file "main"))))
   :description ""
   :in-order-to ((test-op (test-op "cl-dbi-tutorial/tests"))))
 

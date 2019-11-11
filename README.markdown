@@ -19,3 +19,8 @@ Please clone this repository into your quicklisp directory. Then to load run the
 ```lisp
 (ql:quickload "cl-dbi-tutorial")
 ```
+
+## Usage
+
+The unit test in the `tests` folder, though incomplete, provides some 
+examples on how to test and use the example API provided in the project.
